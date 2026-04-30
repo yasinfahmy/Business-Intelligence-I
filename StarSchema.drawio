@@ -1,0 +1,54 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Seite-1" id="UJMU-7ApsXnrlWeXT293">
+    <mxGraphModel dx="1414" dy="827" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="xIMm2jpVfokLMovIswgv-9" edge="1" parent="1" source="xIMm2jpVfokLMovIswgv-1" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" target="xIMm2jpVfokLMovIswgv-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xIMm2jpVfokLMovIswgv-10" edge="1" parent="1" source="xIMm2jpVfokLMovIswgv-1" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" target="xIMm2jpVfokLMovIswgv-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xIMm2jpVfokLMovIswgv-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="&lt;ul&gt;&lt;li&gt;id (PK)&lt;/li&gt;&lt;li&gt;state&lt;/li&gt;&lt;li&gt;district&lt;/li&gt;&lt;li&gt;area_km2&lt;/li&gt;&lt;/ul&gt;" vertex="1">
+          <mxGeometry height="100" width="160" x="50" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="xIMm2jpVfokLMovIswgv-7" edge="1" parent="1" source="xIMm2jpVfokLMovIswgv-1" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;entryX=0;entryY=1;entryDx=0;entryDy=0;" target="xIMm2jpVfokLMovIswgv-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="570" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xIMm2jpVfokLMovIswgv-16" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;" value="Dim_District" vertex="1">
+          <mxGeometry height="30" width="60" x="100" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="xIMm2jpVfokLMovIswgv-17" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="110" width="160" x="590" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="xIMm2jpVfokLMovIswgv-3" parent="xIMm2jpVfokLMovIswgv-17" style="rounded=0;whiteSpace=wrap;html=1;align=left;container=1;" value="&lt;ul&gt;&lt;li&gt;id&amp;nbsp;(PK)&lt;/li&gt;&lt;li&gt;year&lt;/li&gt;&lt;/ul&gt;" vertex="1">
+          <mxGeometry height="80" width="160" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xIMm2jpVfokLMovIswgv-14" parent="xIMm2jpVfokLMovIswgv-17" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;" value="Dim_Date" vertex="1">
+          <mxGeometry height="30" width="60" x="50" as="geometry" />
+        </mxCell>
+        <mxCell id="xIMm2jpVfokLMovIswgv-18" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="190" width="200" x="300" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="xIMm2jpVfokLMovIswgv-1" parent="xIMm2jpVfokLMovIswgv-18" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="&lt;ul&gt;&lt;li&gt;id (PK)&lt;/li&gt;&lt;li&gt;avg_net_income&lt;/li&gt;&lt;li&gt;unemployment_count&lt;/li&gt;&lt;li&gt;unemployment_percentage&lt;/li&gt;&lt;li&gt;population&lt;/li&gt;&lt;li&gt;ditrictID (FK)&lt;/li&gt;&lt;li&gt;sexID (FK)&lt;/li&gt;&lt;li&gt;dateID (FK)&lt;/li&gt;&lt;/ul&gt;" vertex="1">
+          <mxGeometry height="160" width="200" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xIMm2jpVfokLMovIswgv-12" parent="xIMm2jpVfokLMovIswgv-18" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;" value="Fact_Economic_Indicators" vertex="1">
+          <mxGeometry height="30" width="75" x="62.5" as="geometry" />
+        </mxCell>
+        <mxCell id="xIMm2jpVfokLMovIswgv-19" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="110" width="160" x="50" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="xIMm2jpVfokLMovIswgv-2" parent="xIMm2jpVfokLMovIswgv-19" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="&lt;ul&gt;&lt;li&gt;id (PK)&lt;/li&gt;&lt;li&gt;code&lt;/li&gt;&lt;li&gt;name&lt;/li&gt;&lt;/ul&gt;" vertex="1">
+          <mxGeometry height="80" width="160" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xIMm2jpVfokLMovIswgv-15" parent="xIMm2jpVfokLMovIswgv-19" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;" value="Dim_Sex" vertex="1">
+          <mxGeometry height="30" width="60" x="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
